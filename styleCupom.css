@@ -1,0 +1,25 @@
+body{
+  background-color: #F2D3AC;
+}
+
+main{
+  background-color: #daa972;
+  width: 370px;
+  padding: 10px;
+  margin: 10px auto 0px auto;
+  border-radius: 10px;
+}
+
+img{
+  width: 350px;
+  margin: auto;
+  display: block;
+}
+
+form{
+  width: 350px;
+}
+
+label{
+  font-weight: bold;
+}

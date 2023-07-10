@@ -1,0 +1,115 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #F2D3AC;
+}
+main{
+  max-width: 800px;
+  margin: 20px auto 0px auto;
+  box-shadow: 0px 0px 30px white;
+  border: solid 5px white;
+  border-radius: 10px;
+}
+#header{
+  background-image: url('imagens/banner.jpg');
+  width: auto;
+  padding: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+hgroup{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: black;
+}
+h1,h2{
+  font-size: 40px;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: #F2D3AC;
+}
+#body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: auto;
+  background-color: #260A07;
+}
+#number{
+  background-color: black;
+  border: solid 3px white;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+  width: 350px;
+  height: 250px;
+  margin: 10px 0px 10px 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#btns{
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  margin: 10px 0px 10px 0px;
+}
+button{
+  height: 45%;
+}
+#box1, #box2{
+  width: 130px;
+  margin-bottom: 10px;
+  color: white;
+  display: none;
+}
+
+#slot3{
+  width: 100px;
+  font-size:100px;
+  color: white;
+  display: none;
+  font-weight: bold;
+}
+.box3{
+  width: 100px;
+  font-size:100px;
+  color: white;
+  font-weight: bold;
+}
+@media(max-width: 650px){
+  h1,h2{
+  font-size: 30px;
+  padding: 1px;
+  border-radius: 3px;
+  background-color: #F2D3AC;
+  }
+
+  #box1, #box2{
+  width: 90px;
+  margin-bottom: 10px;
+  color: white;
+  display: none;
+  }
+
+  #slot3{
+    width: 90px;
+    font-size:90px;
+    color: white;
+    display: none;
+    font-weight: bold;
+  }
+  .box3{
+    width: 90px;
+    font-size:90px;
+    color: white;
+    font-weight: bold;
+  }
+}
